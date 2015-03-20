@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5B9A5E1ABC0706000E21F4 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9C15461AB96F92004E92FD /* Venue.m */; };
+		CB5B9A601ABC1427000E21F4 /* LocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B9A5F1ABC1427000E21F4 /* LocationManagerTests.m */; };
+		CB9C15441AB96F86004E92FD /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9C15431AB96F86004E92FD /* LocationManager.m */; };
+		CB9C15471AB96F92004E92FD /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9C15461AB96F92004E92FD /* Venue.m */; };
+		CB9C154A1AB96F9D004E92FD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9C15491AB96F9D004E92FD /* MainViewController.m */; };
+		CB9C154F1AB9A335004E92FD /* VenueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9C154E1AB9A335004E92FD /* VenueTableViewCell.m */; };
+		D09BE2E71AB80BA500DCD12A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BE2E61AB80BA500DCD12A /* main.m */; };
+		D09BE2EA1AB80BA500DCD12A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BE2E91AB80BA500DCD12A /* AppDelegate.m */; };
+		D09BE2F01AB80BA500DCD12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09BE2EE1AB80BA500DCD12A /* Main.storyboard */; };
+		D09BE2F21AB80BA500DCD12A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09BE2F11AB80BA500DCD12A /* Images.xcassets */; };
+		D09BE2F51AB80BA500DCD12A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09BE2F31AB80BA500DCD12A /* LaunchScreen.xib */; };
+		D09BE3011AB80BA500DCD12A /* FourSquareVenueSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BE3001AB80BA500DCD12A /* FourSquareVenueSearchTests.m */; };
+		D09BE3141AB80CD800DCD12A /* SearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BE3131AB80CD800DCD12A /* SearchRequest.m */; };
+		D09BE3151AB80CD800DCD12A /* SearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BE3131AB80CD800DCD12A /* SearchRequest.m */; };
+		D09BE31D1AB824C900DCD12A /* SearchRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BE31C1AB824C900DCD12A /* SearchRequestTests.m */; };
+		D09BE3301AB85C5700DCD12A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09BE32F1AB85C5700DCD12A /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09BE2FB1AB80BA500DCD12A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09BE2D91AB80BA500DCD12A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BE2E01AB80BA500DCD12A;
+			remoteInfo = FourSquareVenueSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB5B9A5F1ABC1427000E21F4 /* LocationManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManagerTests.m; sourceTree = "<group>"; };
+		CB9C15421AB96F86004E92FD /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManager.h; path = Models/Location/LocationManager.h; sourceTree = "<group>"; };
+		CB9C15431AB96F86004E92FD /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManager.m; path = Models/Location/LocationManager.m; sourceTree = "<group>"; };
+		CB9C15451AB96F92004E92FD /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Venue.h; path = Models/Venue.h; sourceTree = "<group>"; };
+		CB9C15461AB96F92004E92FD /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Venue.m; path = Models/Venue.m; sourceTree = "<group>"; };
+		CB9C15481AB96F9D004E92FD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Application/MainViewController.h; sourceTree = "<group>"; };
+		CB9C15491AB96F9D004E92FD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Application/MainViewController.m; sourceTree = "<group>"; };
+		CB9C154D1AB9A335004E92FD /* VenueTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenueTableViewCell.h; path = Application/VenueTableViewCell.h; sourceTree = "<group>"; };
+		CB9C154E1AB9A335004E92FD /* VenueTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenueTableViewCell.m; path = Application/VenueTableViewCell.m; sourceTree = "<group>"; };
+		D09BE2E11AB80BA500DCD12A /* Venue Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Venue Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BE2E51AB80BA500DCD12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09BE2E61AB80BA500DCD12A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D09BE2E81AB80BA500DCD12A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D09BE2E91AB80BA500DCD12A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D09BE2EF1AB80BA500DCD12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09BE2F11AB80BA500DCD12A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D09BE2F41AB80BA500DCD12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D09BE2FA1AB80BA500DCD12A /* FourSquareVenueSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourSquareVenueSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BE2FF1AB80BA500DCD12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09BE3001AB80BA500DCD12A /* FourSquareVenueSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourSquareVenueSearchTests.m; sourceTree = "<group>"; };
+		D09BE3121AB80CD800DCD12A /* SearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchRequest.h; path = Backend/SearchRequest.h; sourceTree = "<group>"; };
+		D09BE3131AB80CD800DCD12A /* SearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchRequest.m; path = Backend/SearchRequest.m; sourceTree = "<group>"; };
+		D09BE3161AB8101400DCD12A /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		D09BE31C1AB824C900DCD12A /* SearchRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRequestTests.m; sourceTree = "<group>"; };
+		D09BE32F1AB85C5700DCD12A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09BE2DE1AB80BA500DCD12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BE3301AB85C5700DCD12A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BE2F71AB80BA500DCD12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9C15411AB96EDA004E92FD /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				CB9C15421AB96F86004E92FD /* LocationManager.h */,
+				CB9C15431AB96F86004E92FD /* LocationManager.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		D09BE2D81AB80BA500DCD12A = {
+			isa = PBXGroup;
+			children = (
+				D09BE32F1AB85C5700DCD12A /* CoreLocation.framework */,
+				D09BE2E31AB80BA500DCD12A /* FourSquareVenueSearch */,
+				D09BE2FD1AB80BA500DCD12A /* FourSquareVenueSearchTests */,
+				D09BE2E21AB80BA500DCD12A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09BE2E21AB80BA500DCD12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09BE2E11AB80BA500DCD12A /* Venue Search.app */,
+				D09BE2FA1AB80BA500DCD12A /* FourSquareVenueSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09BE2E31AB80BA500DCD12A /* FourSquareVenueSearch */ = {
+			isa = PBXGroup;
+			children = (
+				D09BE3171AB81B7000DCD12A /* Models */,
+				D09BE30B1AB80C1F00DCD12A /* Backend */,
+				D09BE30A1AB80BFF00DCD12A /* Application */,
+				D09BE2EE1AB80BA500DCD12A /* Main.storyboard */,
+				D09BE2E81AB80BA500DCD12A /* AppDelegate.h */,
+				D09BE2E91AB80BA500DCD12A /* AppDelegate.m */,
+				D09BE2F11AB80BA500DCD12A /* Images.xcassets */,
+				D09BE2F31AB80BA500DCD12A /* LaunchScreen.xib */,
+				D09BE2E41AB80BA500DCD12A /* Supporting Files */,
+				D09BE3161AB8101400DCD12A /* Config.h */,
+			);
+			path = FourSquareVenueSearch;
+			sourceTree = "<group>";
+		};
+		D09BE2E41AB80BA500DCD12A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09BE2E51AB80BA500DCD12A /* Info.plist */,
+				D09BE2E61AB80BA500DCD12A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09BE2FD1AB80BA500DCD12A /* FourSquareVenueSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09BE3001AB80BA500DCD12A /* FourSquareVenueSearchTests.m */,
+				CB5B9A5F1ABC1427000E21F4 /* LocationManagerTests.m */,
+				D09BE2FE1AB80BA500DCD12A /* Supporting Files */,
+				D09BE31C1AB824C900DCD12A /* SearchRequestTests.m */,
+			);
+			path = FourSquareVenueSearchTests;
+			sourceTree = "<group>";
+		};
+		D09BE2FE1AB80BA500DCD12A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09BE2FF1AB80BA500DCD12A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09BE30A1AB80BFF00DCD12A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CB9C15481AB96F9D004E92FD /* MainViewController.h */,
+				CB9C15491AB96F9D004E92FD /* MainViewController.m */,
+				CB9C154D1AB9A335004E92FD /* VenueTableViewCell.h */,
+				CB9C154E1AB9A335004E92FD /* VenueTableViewCell.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		D09BE30B1AB80C1F00DCD12A /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				D09BE3121AB80CD800DCD12A /* SearchRequest.h */,
+				D09BE3131AB80CD800DCD12A /* SearchRequest.m */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		D09BE3171AB81B7000DCD12A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB9C15411AB96EDA004E92FD /* Location */,
+				CB9C15451AB96F92004E92FD /* Venue.h */,
+				CB9C15461AB96F92004E92FD /* Venue.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09BE2E01AB80BA500DCD12A /* FourSquareVenueSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BE3041AB80BA500DCD12A /* Build configuration list for PBXNativeTarget "FourSquareVenueSearch" */;
+			buildPhases = (
+				D09BE2DD1AB80BA500DCD12A /* Sources */,
+				D09BE2DE1AB80BA500DCD12A /* Frameworks */,
+				D09BE2DF1AB80BA500DCD12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourSquareVenueSearch;
+			productName = FourSquareVenueSearch;
+			productReference = D09BE2E11AB80BA500DCD12A /* Venue Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09BE2F91AB80BA500DCD12A /* FourSquareVenueSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BE3071AB80BA500DCD12A /* Build configuration list for PBXNativeTarget "FourSquareVenueSearchTests" */;
+			buildPhases = (
+				D09BE2F61AB80BA500DCD12A /* Sources */,
+				D09BE2F71AB80BA500DCD12A /* Frameworks */,
+				D09BE2F81AB80BA500DCD12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09BE2FC1AB80BA500DCD12A /* PBXTargetDependency */,
+			);
+			name = FourSquareVenueSearchTests;
+			productName = FourSquareVenueSearchTests;
+			productReference = D09BE2FA1AB80BA500DCD12A /* FourSquareVenueSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09BE2D91AB80BA500DCD12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Mari Halkoaho";
+				TargetAttributes = {
+					D09BE2E01AB80BA500DCD12A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D09BE2F91AB80BA500DCD12A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D09BE2E01AB80BA500DCD12A;
+					};
+				};
+			};
+			buildConfigurationList = D09BE2DC1AB80BA500DCD12A /* Build configuration list for PBXProject "FourSquareVenueSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09BE2D81AB80BA500DCD12A;
+			productRefGroup = D09BE2E21AB80BA500DCD12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09BE2E01AB80BA500DCD12A /* FourSquareVenueSearch */,
+				D09BE2F91AB80BA500DCD12A /* FourSquareVenueSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09BE2DF1AB80BA500DCD12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BE2F01AB80BA500DCD12A /* Main.storyboard in Resources */,
+				D09BE2F51AB80BA500DCD12A /* LaunchScreen.xib in Resources */,
+				D09BE2F21AB80BA500DCD12A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BE2F81AB80BA500DCD12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09BE2DD1AB80BA500DCD12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9C15441AB96F86004E92FD /* LocationManager.m in Sources */,
+				CB9C154A1AB96F9D004E92FD /* MainViewController.m in Sources */,
+				D09BE3141AB80CD800DCD12A /* SearchRequest.m in Sources */,
+				D09BE2EA1AB80BA500DCD12A /* AppDelegate.m in Sources */,
+				CB9C15471AB96F92004E92FD /* Venue.m in Sources */,
+				CB9C154F1AB9A335004E92FD /* VenueTableViewCell.m in Sources */,
+				D09BE2E71AB80BA500DCD12A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BE2F61AB80BA500DCD12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BE31D1AB824C900DCD12A /* SearchRequestTests.m in Sources */,
+				D09BE3011AB80BA500DCD12A /* FourSquareVenueSearchTests.m in Sources */,
+				CB5B9A5E1ABC0706000E21F4 /* Venue.m in Sources */,
+				CB5B9A601ABC1427000E21F4 /* LocationManagerTests.m in Sources */,
+				D09BE3151AB80CD800DCD12A /* SearchRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09BE2FC1AB80BA500DCD12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09BE2E01AB80BA500DCD12A /* FourSquareVenueSearch */;
+			targetProxy = D09BE2FB1AB80BA500DCD12A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09BE2EE1AB80BA500DCD12A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09BE2EF1AB80BA500DCD12A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D09BE2F31AB80BA500DCD12A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09BE2F41AB80BA500DCD12A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09BE3021AB80BA500DCD12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D09BE3031AB80BA500DCD12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09BE3051AB80BA500DCD12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FourSquareVenueSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Venue Search";
+			};
+			name = Debug;
+		};
+		D09BE3061AB80BA500DCD12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FourSquareVenueSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Venue Search";
+			};
+			name = Release;
+		};
+		D09BE3081AB80BA500DCD12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FourSquareVenueSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venue Search.app/Venue Search";
+			};
+			name = Debug;
+		};
+		D09BE3091AB80BA500DCD12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FourSquareVenueSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venue Search.app/Venue Search";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09BE2DC1AB80BA500DCD12A /* Build configuration list for PBXProject "FourSquareVenueSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BE3021AB80BA500DCD12A /* Debug */,
+				D09BE3031AB80BA500DCD12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BE3041AB80BA500DCD12A /* Build configuration list for PBXNativeTarget "FourSquareVenueSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BE3051AB80BA500DCD12A /* Debug */,
+				D09BE3061AB80BA500DCD12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BE3071AB80BA500DCD12A /* Build configuration list for PBXNativeTarget "FourSquareVenueSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BE3081AB80BA500DCD12A /* Debug */,
+				D09BE3091AB80BA500DCD12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09BE2D91AB80BA500DCD12A /* Project object */;
+}
